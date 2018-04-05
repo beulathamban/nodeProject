@@ -1,0 +1,25 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 verbose stack Error: EACCES: permission denied, mkdir '/.node_modules_global'
+4 verbose stack     at Error (native)
+5 verbose cwd /Users/092834/Desktop/VM/www/GitIntro
+6 error Darwin 17.3.0
+7 error argv "/usr/local/bin/node" "/usr/local/bin/npm"
+8 error node v6.10.3
+9 error npm  v3.10.10
+10 error path /.node_modules_global
+11 error code EACCES
+12 error errno -13
+13 error syscall mkdir
+14 error Error: EACCES: permission denied, mkdir '/.node_modules_global'
+14 error     at Error (native)
+14 error  { Error: EACCES: permission denied, mkdir '/.node_modules_global'
+14 error     at Error (native)
+14 error   errno: -13,
+14 error   code: 'EACCES',
+14 error   syscall: 'mkdir',
+14 error   path: '/.node_modules_global' }
+15 error Please try running this command again as root/Administrator.
+16 verbose exit [ -13, true ]
